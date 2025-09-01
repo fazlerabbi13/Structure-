@@ -12,7 +12,7 @@ int main() {
     cout << p.y << endl;
     
     // Updating members
-    p.x = 99;
+    // p.x = 99;
 
     // Accessing members again
     cout << p.x << " ";
