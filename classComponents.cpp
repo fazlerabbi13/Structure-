@@ -19,9 +19,9 @@ public:
     }
     
     // Destructor
-    // ~Point() {
-    //     cout << "Destroyed Point Variable" << endl;
-    // }
+    ~Point() {
+        cout << "Destroyed Point Variable" << endl;
+    }
 };
 
 int main() {
