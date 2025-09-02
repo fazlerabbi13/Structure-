@@ -16,11 +16,11 @@ struct outer {
 };
 
 int main() {
-    // outer obj = {{1, 2}, 10, 20};
-    // cout << "Inner: " << obj.in.a << " "
-    // << obj.in.b << endl;
-    // cout << "Outer: " << obj.x << " "
-    // << obj.y;
+    outer obj = {{1, 2}, 10, 20};
+    cout << "Inner: " << obj.in.a << " "
+    << obj.in.b << endl;
+    cout << "Outer: " << obj.x << " "
+    << obj.y;
 
     return 0;
 }
