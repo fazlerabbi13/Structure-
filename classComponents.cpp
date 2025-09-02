@@ -14,9 +14,9 @@ public:
     }
     
     // Member function
-    // void show() {
-    //     cout << x << " " << y << endl;
-    // }
+    void show() {
+        cout << x << " " << y << endl;
+    }
     
     // Destructor
     // ~Point() {
