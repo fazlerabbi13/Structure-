@@ -8,12 +8,12 @@ struct inner {
 
 // Define the outer structure that 
 // contains inner structure
-// struct outer {
+struct outer {
     
-//     // Nested structure
-//     inner in; 
-//     int x, y;
-// };
+    // Nested structure
+    inner in; 
+    int x, y;
+};
 
 int main() {
     // outer obj = {{1, 2}, 10, 20};
