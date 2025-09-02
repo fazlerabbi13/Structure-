@@ -27,8 +27,8 @@ public:
 int main() {
     
     // Creating Point variables using constructors
-    Point s1 (1,1);
-    Point s2(99, 1001);
+    // Point s1 (1,1);
+    // Point s2(99, 1001);
 
     // s1.show();
     // s2.show();
