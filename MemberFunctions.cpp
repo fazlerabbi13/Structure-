@@ -15,7 +15,7 @@ int main() {
 
     // Call member function 
     // using (.) operator
-    // cout << s.sum();
+    cout << s.sum();
 
     return 0;
 }
