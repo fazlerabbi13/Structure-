@@ -12,9 +12,9 @@ int main() {
     Hello hello = {224};
     
     // Creating pointer
-    // Hello *sptr = &hello;
+    Hello *sptr = &hello;
     
     // Accessing using arrow operator
-    // sptr->showCount();
+    sptr->showCount();
     return 0;
 }
